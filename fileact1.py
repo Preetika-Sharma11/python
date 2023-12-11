@@ -1,0 +1,10 @@
+sample1=open("/Users/antrabali/Documents/untitled folder/sample1","w")
+sample1.write("Hi, I am Antra")
+sample1.close()
+sample2=open("/Users/antrabali/Documents/untitled folder/sample2.txt","w")
+sample1=open("/Users/antrabali/Documents/untitled folder/sample1","r")
+a=sample1.read()
+sample2.write(a)
+sample2.write("\nMy age is 20")
+sample2.close()
+
